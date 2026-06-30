@@ -11,6 +11,7 @@
       padding: 40px 20px;
       text-align: center;
       border-bottom: 2px solid #442c6b;
+      
     }
     header h1 {
       margin: 0;
@@ -145,4 +146,16 @@
       font-size: 0.95rem;
       margin-top: 32px;
     }
+    body {
+    background-color: #222;
+    color: white; 
+    transition: all 0.3s ease; 
+}
 
+body.fundo-branco {
+    background-color: white;
+    color: #222; 
+}
+header, header * {
+    color: white !important;
+}
